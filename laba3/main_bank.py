@@ -24,7 +24,7 @@ class UnauthorizedError(BankError):
 
 
 # ========== Классы сущностей ==========
-class Client:
+class Client: #client
     def __init__(self, client_id: str, name: str):
         self.client_id = client_id
         self.name = name
